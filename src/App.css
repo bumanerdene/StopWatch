@@ -1,0 +1,50 @@
+.Sw {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.controlBoard {
+  font-size: 70px;
+}
+
+.Buttons button {
+  border-radius: 30px;
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  opacity: 1;
+  transition: opacity 1s;
+  font-size: 17px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.start {
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  border: none;
+  color: #fff;
+}
+
+.clear {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  border: none;
+  color: #fff;
+}
+
+.lap {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #caff7d 100%);
+  border: none;
+  color: #fff;
+}
+
+.Buttons button:hover {
+  opacity: 0.6;
+}
